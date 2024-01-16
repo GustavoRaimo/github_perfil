@@ -2,7 +2,7 @@ import styles from './Perfil.module.css'
 
 
 
-const Perfil = ({ nomeUsuario, endereco }) => {
+const Perfil = ({ nomeUsuario }) => {
     return (
         <header className={styles.header}>
             <img className={styles.avatar} src={`https://github.com/${nomeUsuario}.png`} />

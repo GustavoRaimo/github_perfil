@@ -1,21 +1,20 @@
-.list{
+.list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
 }
 
-.listItem{
+.listItem {
     list-style: none;
     padding: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0, 0.1);
 }
 
-.itemName b, .itemLanguage b{   
+.itemName b, .itemLanguage b {
     margin-right: 8px;
-
 }
 
-.itemLink{
+.itemLink {
     display: block;
     background-color: var(--corPrincipal);
     color: var(--corSecundaria);
